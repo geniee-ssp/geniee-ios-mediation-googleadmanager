@@ -12,7 +12,7 @@ let package = Package(
     ],
     dependencies: [
         .package(
-            url: "https://github.com/unigeniee/swift-package-manager-geniee-ios-sdk.git",
+            url: "https://github.com/geniee-ssp/swift-package-manager-geniee-ios-sdk.git",
             from: "8.4.3"
         ),
         .package(
@@ -32,7 +32,7 @@ let package = Package(
         ),
         .binaryTarget(
             name: "GenieeMediationGoogleAdManager",
-            url: "https://github.com/unigeniee/geniee-ios-mediation-googleadmanager/releases/download/13.4.0/GenieeMediationGoogleAdManager.13.4.0.0.zip",
+            url: "https://github.com/geniee-ssp/geniee-ios-mediation-googleadmanager/releases/download/13.4.0/GenieeMediationGoogleAdManager.13.4.0.0.zip",
             checksum: "b58150dcbd4549dd67a03cc4c39055dcb3763c45450a279f89b93b7986cef57e"
         )
     ]
